@@ -1,0 +1,103 @@
+body{
+	text-align: center;
+	margin-top: 4%;
+	background-image: url("../images/b.jpg");
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+}
+#wikipedia{
+    width: auto;
+    height: 50%;}
+
+
+
+#submit:hover, #random:hover {
+  background: rgba(26, 26, 29, .95);
+  color: rgb(22, 194, 151);}
+
+  input, button {
+  outline: none;
+}
+.content {
+  position: relative;
+  text-align: left;
+  width: 80%;
+  margin: 25px auto;
+  background: rgba(26, 26, 29, .95);
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+}
+.title {
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 15px;
+  color: red;
+
+}
+.snippet {
+  font-size: 18px;
+  margin-top: -25px;
+}
+
+.content:hover {
+  background: green;
+  color: white;
+  cursor: pointer;
+ }
+.content:hover h4 {
+  color: orange;
+ }
+
+.i2{
+	margin-top: 1%;
+}
+#random{
+	margin-top: 1%;
+}
+#wikipedia{
+	 
+	opacity:0.1;
+	border-radius: 50%;
+}
+ #input {
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  height: 38px;
+  width: 35%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+#submit {
+  font-size: 18px;
+  border-radius: 4px;
+  background: white;
+  border: none;
+  height: 40px;
+  width: 25%;
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#random {
+  font-size: 18px;
+  border-radius: 4px;
+  background: white;
+  border: none;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 30%;
+  cursor: pointer;
+  font-style: italic;
+}
+.i1{
+
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.i3{
+	width:30%;
+}

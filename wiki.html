@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wiki project</title>
+	 <link rel="stylesheet" href="css/wikistyle.css">
+
+</head>
+<body>
+	<div class="i1">
+<div class="search">
+
+  <form class="f1">
+    <span id="radio_title"><strong>Select Number of Results:</strong></span>
+    <input type="radio" name="radio" value="5" checked> 5
+    <input type="radio" name="radio" value="10"> 10
+    <input type="radio" name="radio" value="15"> 15
+    <input type="radio" name="radio" value="25"> 25
+    <input type="radio" name="radio" value="50"> 50
+    <input type="radio" name="radio" value="100"> 100
+  </form>
+
+  <form action="#" class="i2">
+        <input type="text" name="search" class="i3"  placeholder="enter here" autofocus />
+        <button  type="submit" id="submit">Search Wikipedia</button>
+  </form>
+
+  <a target="_blank" href="http://en.wikipedia.org/wiki/Special:Random"><button id="random">or view a random article</button></a>
+   
+    </div>
+
+    <div id="content">
+      <img id="wikipedia" src= "images/a.gif">  
+    </div>
+    <a href="#" class="scroll"></a>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="js/wikijs.js"></script>
+</body>
+</html>
